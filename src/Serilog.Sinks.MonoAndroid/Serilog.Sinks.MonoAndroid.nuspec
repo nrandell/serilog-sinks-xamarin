@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Serilog.Sinks.MonoAndroid</id>
+    <id>UnofficialSerilog.Sinks.MonoAndroid</id>
     <version>0.1.0</version>
     <authors>Serilog Contributors</authors>
     <description>Serilog event sink that writes to Xamarin Android.</description>
@@ -11,13 +11,12 @@
     <iconUrl>http://serilog.net/images/serilog-sink-nuget.png</iconUrl>
     <tags>serilog logging xamarin android monoandroid</tags>
     <dependencies>
-      <dependency id="Serilog" />
-      <dependency id="Newtonsoft.Json" />
+      <dependency id="Serilog" version="1.5" />
     </dependencies>
   </metadata>
   <files>
-    <file src="src\Serilog.Sinks.MonoAndroid\bin\Release\Serilog.Sinks.MonoAndroid.dll" target="lib\MonoAndroid" />
-    <file src="src\Serilog.Sinks.MonoAndroid\bin\Release\Serilog.Sinks.MonoAndroid.xml" target="lib\MonoAndroid" />
+    <file src="bin\Release\Serilog.Sinks.MonoAndroid.dll" target="lib\MonoAndroid" />
+    <file src="bin\Release\Serilog.Sinks.MonoAndroid.xml" target="lib\MonoAndroid" />
   </files>
 </package>
 
